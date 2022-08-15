@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+.full-screen{
+    width: 100%;
+    height: 1000px;
+}
+
+.top-bar{
+    width: 100%;
+    height: 135px;
+    background-color:white;
+    box-shadow: 0px 1px 3px #aaaaaa;
+}
+.collage{
+    background-color: white;
+    height: 471px;
+    width: 100%;
+    margin-top: 4%;
+}
+
+.mcdonalds-logo{
+    width: 228px;
+    height: 135px;
+    background: #fff;
+    float: left;
+}
+
+.langandmail{
+    width: 25%;
+    height: 59px;
+    float: left;
+}
+nav{
+    background: #fff;
+}
+nav ul{
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding-top: 30%;
+    padding-left: 0%;
+    font-size: small;
+}
+nav ul{
+    display: flex;
+}
+nav li1{
+    font-family:Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    flex: 1 1 0;
+}
+
+.searchlocation{
+    float: left;
+    width: 37%;
+    height: 59px;
+    background:white;   
+
+}
+ul1{
+    display: flex;
+    padding-left: 245px;
+    font-family:Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-size: small;
+    padding-top: 30px;
+}
+.topright{
+    background: white;
+    float: left;
+    width: 21%;
+    height: 59px;
+
+}
+.ordernow{
+    background: #ffbc0d;
+    width: 131px;
+    height: 40px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 12px;
+    border-radius: 4px;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    letter-spacing: -.15px;
+    text-align: center;
+}
+.topdown{
+    background:white;
+    height: 76px;
+    width: 886px;
+    float: left;
+}
+
+ul2{
+    display: flex;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-size: 1pc;
+    justify-content: space-between;
+    padding-top: 27px;
+   
+    
+}
+li2{
+    font-weight: bolder;
+}
+.firstone{
+    width: 63%;
+    height:471px;
+    float: left;
+}
+.firstone img{
+    padding-top: 41px;
+    padding-left: 97px;
+}
+.textone{
+    float: left;
+    height: 371px;
+    width: 30%;
+    background: white;
+    margin-top: 31px;
+}
+article{
+    color: #292929;
+    background: white;
+    margin-bottom: -2px;
+    padding: 15px;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+.submit-your-story{
+    background: #ffbc0d;
+    width: 171px;
+    height: 48px;
+    float: left;
+    margin-left: 25px;
+    margin-top: -25px;
+    border-radius: 4px;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    letter-spacing: -.15px;
+    text-align: center;
+    cursor: pointer;
+}
+.frenchfries{
+    
+    width: 100%;
+    height: 471px;
+    margin-top: 20px;
+}
+.friespic{
+    float: left;
+}
+.friespic img{
+    padding-top: 41px;
+    padding-left: 97px;
+}
+.texttwo{
+    float: left;
+    height: 318px;
+    width: 30%;
+    background: white;
+    margin-top: 32px;
+    margin-left: 20px;
+}
+article2{
+    color: #292929;
+    background: white;
+    padding-top: 23px;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    float: left;
+}
+.downloadtheapp{
+    background: #ffbc0d;
+    width: 171px;
+    height: 48px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    letter-spacing: -.15px;
+    text-align: center;
+    cursor: pointer;
+}
+.burger{
+    width: 100%;
+    height: 471px;
+    
+}
+.burgerimg{
+    float: left;
+}
+.burgerimg img{
+    padding-top: 41px;
+    padding-left: 97px;
+}
+.textthree{
+    float: left;
+    height: 263px;
+    width: 30%;
+    background: white;
+    margin-top: 32px;
+    margin-left: 20px;
+}
+article3{
+    color: #292929;
+    background: white;
+    padding-top: 23px;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    float: left;
+}
+.orderintheapp{
+    background: #ffbc0d;
+    width: 171px;
+    height: 48px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 37px;
+    border-radius: 4px;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    letter-spacing: -.15px;
+    text-align: center;
+    cursor: pointer;
+}
+.lady{ 
+    width: 100%;
+    height: 471px;
+    
+
+}
+.ladipic{
+    float: left;
+}
+.ladipic img{
+    padding-top: 41px;
+    padding-left: 97px;
+}
+.textfour{
+    float: left;
+    height: 263px;
+    width: 30%;
+    background: white;
+    margin-top: 32px;
+    margin-left: 20px;
+}
+.LearnMoreAboutSpotlightDorado{
+    background: #ffbc0d;
+    width: 285px;
+    height: 48px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 129px;
+    border-radius: 4px;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    letter-spacing: -.15px;
+    text-align: center;
+    cursor: pointer;
+}
+.combo{
+    width: 100%;
+    height: 471px;
+    margin-top: 33px;
+}
+.combopic{
+    float: left;
+}
+.combopic img{
+    padding-top: 41px;
+    padding-left: 97px;
+}
+.textfive{
+    height: 263px;
+    width: 30%;
+    background: white;
+    margin-top: 32px;
+    margin-left: 2px;
+    float: left;   
+}
+.orderdelivery{
+    background: #ffbc0d;
+    width: 197px;
+    height: 48px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 60px;
+    border-radius: 4px;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    letter-spacing: -.15px;
+    text-align: center;
+    cursor: pointer;
+}
+.mobile{
+    width: 100%;
+    height: 471px;
+    margin-top: 33px;
+}
+.mobilepic{
+    float: left;
+}
+.mobilepic img{
+    padding-top: 41px;
+    padding-left: 97px;
+}
+.getapp{
+    background: #ffbc0d;
+    width: 173px;
+    height: 48px;
+    float: left;
+    margin-left: 25px;
+    margin-top: -10px;
+    border-radius: 4px;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    letter-spacing: -.15px;
+    text-align: center;
+    cursor: pointer;
+}
+.bottommenubar{
+    width: 100%;
+    height: 437px;
+
+    display: flex;
+    
+}
+
+ul5{
+    list-style: none;
+    flex: 1 1 0;
+    padding: 40px;
+    padding-left: 80px;
+}
+h2{
+    padding-bottom: 27px;
+    color: #292929;
+    line-height: 20px;
+    font-size: 1pc;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+li{
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-size: 1pc;
+    line-height: 22px;
+    padding: 4px;
+}
+.footer{
+    width: 87%;
+    height: 100px;
+    margin-left: 89px;
+}
+.socialmedia{
+    float: left;
+    padding-top: 21px;
+    
+}
+.appcontent{
+    float: left;
+    margin-left: 43.5%;
+    margin-top: 27px;
+}
+.end{
+    width: 100%;
+    height: 249px;
+}
+.endone{
+    float: left;
+    width: 60%;
+    height: 100px;
+    flex-flow: row;
+    margin-top: 43px;
+    margin-left: 57px;
+}
+li6{
+    float: left;
+    font-size: medium;
+    text-align: left;
+    padding: 18px;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+.endlogo{
+    float: left;
+    width: 71px;
+    height: 162px;
+
+}
+.endlogo img{
+    padding-top: 70px;
+    padding-left: 30px;
+}
+.endtext{
+    float: left;
+    width: 300px;
+    height: 162px;
+    
+}
